@@ -4,6 +4,10 @@ body{
     display: inline-block;
     color:#40514E;
 }
+
+.mountain{
+margin-bottom: -4px;}
+
 h1{
     margin-top: 0;
     font-family: 'Sacramento', cursive;
@@ -146,3 +150,21 @@ hr{
     color: #D61C4E;
 }
 
+/* media query */
+@media screen and (max-width: 1000px){
+    .top-cloud{
+        position: absolute;
+        top:50px;
+        right: 100px;
+    }
+    
+    .bottom-cloud{
+        position: absolute;
+        bottom:660px;
+        left:50px;
+    }
+
+    .mountain{
+        width: 23rem;
+    }
+}
