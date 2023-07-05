@@ -5,9 +5,6 @@ body{
     color:#40514E;
 }
 
-.mountain{
-margin-bottom: -4px;}
-
 h1{
     margin-top: 0;
     font-family: 'Sacramento', cursive;
@@ -39,6 +36,9 @@ h3{
     margin: 80px 0;
 }
 
+.mountain{
+    margin-bottom: -4px;
+}
 
 .bottom{
     font-family: 'Albert Sans', sans-serif;
